@@ -1,4 +1,5 @@
 package components;
+
 public abstract class Posicao {
     protected String tipo;
     protected int linhaInicial;

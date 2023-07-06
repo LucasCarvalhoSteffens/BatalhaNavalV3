@@ -46,7 +46,7 @@ public class GreetClient {
             String mensagem;
             String response;
             do {
-                System.out.print("Entre uma mensagem (linha coluna): ");
+                System.out.print("Entre uma mensagem linha(--) coluna(|): ");
                 mensagem = scanner.nextLine();  // Lê a mensagem digitada pelo usuário
                 client.sendMessage(mensagem);  // Envia a mensagem para o servidor
                 response = client.receiveMessage();  // Recebe a resposta do servidor

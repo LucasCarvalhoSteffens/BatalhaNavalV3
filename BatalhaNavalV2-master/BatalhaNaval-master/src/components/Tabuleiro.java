@@ -19,12 +19,12 @@ public class Tabuleiro {
 
         matriz[linhaInicial][colunaInicial] = caracter;
 
-        if( Character.toUpperCase(posicao.getDirecao()) == 'H') {
+        if (Character.toUpperCase(posicao.getDirecao()) == 'H') {
             horizontal = 1;
         } else {
             vertical = 1;
         }
-        for( int i = 0; i< tamanho; i++) {
+        for (int i = 0; i < tamanho; i++) {
             int linha = linhaInicial + (i * vertical);
             int coluna = colunaInicial + (i * horizontal);
             matriz[linha][coluna] = caracter;

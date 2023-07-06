@@ -8,6 +8,7 @@ public class Visualizador {
     public Visualizador(Tabuleiro tabuleiro) {
         this.tabuleiro = tabuleiro;
     }
+
     public void ver() {
         int tamanho = tabuleiro.getTamanho();
         char[][] matriz = tabuleiro.getMatriz();
@@ -16,7 +17,7 @@ public class Visualizador {
             for (int coluna = 0; coluna < tamanho; coluna++) {
                 char caracter = matriz[linha][coluna];
                 if (caracter == 0) {
-                    System.out.print("-");
+                    System.out.print("*");
                 } else {
                     System.out.print(caracter);
                 }
