@@ -6,10 +6,8 @@ import view.Visualizador;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.util.logging.Logger;
 
 public class Main {
-    private static final Logger LOG = Logger.getAnonymousLogger();
     private List<Posicao> embarcacoes;  // Lista de objetos Posicao que representam as embarcações
     private Tabuleiro tabuleiro = new Tabuleiro(10);  // Tabuleiro do jogo
 
