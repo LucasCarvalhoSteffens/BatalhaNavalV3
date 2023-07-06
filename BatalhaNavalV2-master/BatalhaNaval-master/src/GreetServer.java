@@ -5,7 +5,6 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class GreetServer {
-    private static final int BOARD_SIZE = 10;  // Tamanho do tabuleiro do jogo
 
     public static void startServer(int port) {
         try (ServerSocket serverSocket = new ServerSocket(port)) {
